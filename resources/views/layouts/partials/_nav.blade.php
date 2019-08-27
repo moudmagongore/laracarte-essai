@@ -4,7 +4,7 @@
   <div class="container" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link {{--  disabled --}}" href="{{route('root_path')}}">Laracarte <span class="sr-only">(current)</span></a>
+        <a class="nav-link {{--  disabled --}}" href="{{route('root_path')}}">{{config('app.name')}} <span class="sr-only">(current)</span></a>
       </li>
       <li class="{{set_active_route('root_path')}}">
         <a class="nav-link" href=" {{route('root_path')}} ">Home</a>

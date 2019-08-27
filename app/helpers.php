@@ -3,7 +3,7 @@
 	{
 		function page_title($title)
 		{
-			$baseTitle = 'Larcarte - Liste des artisans';
+			$baseTitle = config('app.name'). ' - Liste des artisans';
 
 			if($title === '')
 			{
