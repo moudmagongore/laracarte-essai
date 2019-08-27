@@ -1,22 +1,22 @@
- {{-- <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark"> --}}
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
+  {{-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> --}}
 
   <div class="container" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link {{--  disabled --}}" href="{{route('root_path')}}">Laracarte <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
+      <li class="{{set_active_route('root_path')}}">
         <a class="nav-link" href=" {{route('root_path')}} ">Home</a>
       </li>
-      <li class="nav-item active">
+      <li class="{{set_active_route('about_path')}}">
         <a class="nav-link" href=" {{route('about_path')}} ">About</a>
       </li>
 
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link" href="#">Artisans</a>
       </li>
-      <li class="nav-item dropdown active">
+      <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" role="Planet" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Planet</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
           <a class="dropdown-item" href="#">Laravel.com</a>
@@ -27,18 +27,18 @@
         </div>
       </li>
 
-       <li class="nav-item active">
+       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
 
     <ul class="nav navbar-nav navbar-right">  
-       <li class="nav-item active">
+       <li class="nav-item ">
         <a class="nav-link" href="#">Login</a>
       </li>
 
 
-       <li class="nav-item active">
+       <li class="nav-item ">
         <a class="nav-link" href="#">Register</a>
       </li>
     </ul>

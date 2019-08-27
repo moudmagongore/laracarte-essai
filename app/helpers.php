@@ -4,7 +4,7 @@
 		function page_title($title)
 		{
 			$baseTitle = 'Larcarte - Liste des artisans';
-			
+
 			if($title === '')
 			{
 				return $baseTitle;
@@ -15,3 +15,14 @@
 			}
 		}
 	}
+
+
+
+	if(!function_exists('set_active_route'))
+	{
+		function set_active_route($route)
+		{
+			return Route::is($route) ? 'active' : '';
+		}
+	}
+
