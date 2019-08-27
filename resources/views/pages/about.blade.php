@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default', ['title' => 'About'])
 
 @section('container')
     <div class="container" style="margin-top: 4em; margin-bottom: 4em;">
@@ -15,7 +15,7 @@
     		</div>
     	</div>
 
-    	<p>Feel free to help to improve the <a href="">source code.</a></p>
+    	<p>Feel free to help to improve the <a href="https://github.com/moudmagongore/laracarte-mahmoud">source code.</a></p>
 
     	<hr>
 

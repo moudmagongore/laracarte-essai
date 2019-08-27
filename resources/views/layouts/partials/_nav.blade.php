@@ -1,5 +1,5 @@
- <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
- {{--  <nav class="navbar navbar-expand-lg navbar-light bg-light"> --}}
+ {{-- <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark"> --}}
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
   <div class="container" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
